@@ -3,11 +3,16 @@
 * Copyright 2013-2022 Start Bootstrap
 * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-freelancer/blob/master/LICENSE)
 */
+
+
+
 //
 // Scripts
 // 
 
 window.addEventListener('DOMContentLoaded', event => {
+
+
 
     // Navbar shrink function
     var navbarShrink = function () {
@@ -22,6 +27,33 @@ window.addEventListener('DOMContentLoaded', event => {
         }
 
     };
+
+    document.getElementById("submitButton").onclick = function () { sendInfo() }
+
+    function sendInfo() {
+
+        let name = document.getElementById("name").value;
+        let email = document.getElementById("email").value;
+        let phone = document.getElementById("phone").value;
+        let message = document.getElementById("message").value;
+
+        var templateParams = {
+            name: name,
+            email: email,
+            phone: phone,
+            message: message
+        };
+
+        emailjs.send('default_service', 'template_03d0zu8', templateParams)
+            .then(function (response) {
+                console.log('SUCCESS!', response.status, response.text);
+            }, function (error) {
+                console.log('FAILED...', error);
+
+            });
+    }
+
+
 
     // Shrink the navbar 
     navbarShrink();
