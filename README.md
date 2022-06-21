@@ -4,12 +4,16 @@
       Hi! I'm David! :wave:  
   </h1>
 <div>
-    
-<div>
   
-  ### :man_technologist: About Me :
+  <div>
+    ### :man_technologist: About Me :
     
    I am a Mobile and Web Developer from Forney TX.
+  
+  </div>
+  
+    
+<div>
   
   <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
   <img src="https://github.com/devicons/devicon/blob/master/icons/react/react-original-wordmark.svg" title="React" alt="React" width="40"             height="40"/>&nbsp;
