@@ -7,7 +7,7 @@
     
 ### :man_technologist: About Me :
     
-I am a Full Stack Developer <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> from Forney TX.
+I am a Mobile and Web Developer from Forney TX.
 
 <div>
   <img src="https://github.com/devicons/devicon/blob/master/icons/java/java-original-wordmark.svg" title="Java" alt="Java" width="40" height="40"/>&nbsp;
