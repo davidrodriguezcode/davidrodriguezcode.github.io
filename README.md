@@ -1,11 +1,10 @@
 
 # Hi! I'm David! :wave:  
 
----
 
 ### :man_technologist: About Me :
     
-I am a Mobile and Web Developer from Forney TX.
+I am a Mobile and Web Developer from Texas.
 - :computer: I am working as a Mobile and Web Developer in my professional life.
 
 - :drum: In my free time, I play drums!
