@@ -53,6 +53,13 @@ window.addEventListener('DOMContentLoaded', event => {
             });
     }
 
+    document.getElementById("copyright").innerHTML = getYear();
+
+    function getYear() {
+        const date = new Date();
+        return "Copyright &copy; David Rodriguez " + date.getFullYear();
+        
+    }
 
 
     // Shrink the navbar 
